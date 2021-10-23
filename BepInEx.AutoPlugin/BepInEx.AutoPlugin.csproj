@@ -8,6 +8,12 @@
 
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <IncludeBuildOutput>false</IncludeBuildOutput>
+
+        <Version>1.0.0</Version>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/BepInEx/BepInEx.AutoPlugin</RepositoryUrl>
+        <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+        <Description>Generates BepInPlugin attribute and static plugin info for you</Description>
     </PropertyGroup>
 
     <ItemGroup>
