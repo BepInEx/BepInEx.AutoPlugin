@@ -8,8 +8,10 @@
 
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <IncludeBuildOutput>false</IncludeBuildOutput>
+        <DevelopmentDependency>true</DevelopmentDependency>
+        <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
 
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/BepInEx/BepInEx.AutoPlugin</RepositoryUrl>
         <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
