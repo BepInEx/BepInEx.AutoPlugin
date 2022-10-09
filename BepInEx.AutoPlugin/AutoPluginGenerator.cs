@@ -125,8 +125,19 @@ namespace {typeSymbol.ContainingNamespace.ToDisplayString()}
     [{attributeName}({typeSymbol.Name}.Id, ""{name}"", ""{version}"")]
     public partial class {typeSymbol.Name}
     {{
+        /// <summary>
+        /// Id of the <see cref=""{typeSymbol.Name}""/>.
+        /// </summary>
         public const string Id = ""{id}"";
+
+        /// <summary>
+        /// Gets the name of the <see cref=""{typeSymbol.Name}""/>.
+        /// </summary>
         public static string Name => ""{name}"";
+
+        /// <summary>
+        /// Gets the version of the <see cref=""{typeSymbol.Name}""/>.
+        /// </summary>
         public static string Version => ""{version}"";
     }}
 }}
