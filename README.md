@@ -15,11 +15,11 @@ public partial class ExamplePlugin : BaseUnityPlugin
 into
 
 ```cs
-[BepInEx.BepInPlugin(ExamplePlugin.Id, "ExamplePlugin", "0.1.0")]
+[BepInEx.BepInPlugin(ExamplePlugin.Id, ExamplePlugin.Name, ExamplePlugin.Version)]
 public class ExamplePlugin : BaseUnityPlugin
 {
     public const string Id = "com.example.ExamplePlugin";
-    public static string Name => "ExamplePlugin";
-    public static string Version => "0.1.0";
+    public const string Name = "ExamplePlugin";
+    public const string Version = "0.1.0";
 }
 ```
